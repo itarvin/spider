@@ -1,0 +1,98 @@
+2018-01-18 15:54:21 [scrapy] INFO: Scrapy 1.0.3 started (bot: sun)
+2018-01-18 15:54:21 [scrapy] INFO: Optional features available: ssl, http11, boto
+2018-01-18 15:54:21 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'sun.spiders', 'SPIDER_MODULES': ['sun.spiders'], 'LOG_FILE': 'dg.log', 'BOT_NAME': 'sun'}
+2018-01-18 15:54:21 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2018-01-18 15:54:21 [boto] DEBUG: Retrieving credentials from metadata server.
+2018-01-18 15:54:22 [boto] ERROR: Caught exception reading instance data
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/boto/utils.py", line 210, in retry_url
+    r = opener.open(req, timeout=timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+2018-01-18 15:54:22 [boto] ERROR: Unable to read instance data, giving up
+2018-01-18 15:54:22 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2018-01-18 15:54:22 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2018-01-18 15:54:22 [scrapy] INFO: Enabled item pipelines: JsonWriterPipeline
+2018-01-18 15:54:22 [scrapy] INFO: Spider opened
+2018-01-18 15:54:22 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-01-18 15:54:22 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=0> (referer: None)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=900> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=810> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=690> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=720> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=870> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=840> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=660> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=630> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=600> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=510> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=750> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=780> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=480> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:23 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=570> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=540> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=450> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=390> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=360> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=420> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=0)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=1530> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=900)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=5370> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=870)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=2670> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=810)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=1560> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=900)
+2018-01-18 15:54:24 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=9900> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=510)
+2018-01-18 15:54:25 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=5400> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=870)
+2018-01-18 15:54:25 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=2700> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=810)
+2018-01-18 15:54:25 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=11700> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=780)
+2018-01-18 15:54:25 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=9000> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=600)
+2018-01-18 15:54:26 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=7080> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=660)
+2018-01-18 15:54:26 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=7200> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=660)
+2018-01-18 15:54:26 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=13500> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=570)
+2018-01-18 15:54:27 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=14400> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=540)
+2018-01-18 15:54:28 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=17910> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=420)
+2018-01-18 15:54:28 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=12600> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=480)
+2018-01-18 15:54:29 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=10800> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=750)
+2018-01-18 15:54:29 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=14370> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=540)
+2018-01-18 15:54:30 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=19620> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=5370)
+2018-01-18 15:54:32 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=22500> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=9900)
+2018-01-18 15:54:33 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=19800> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=5370)
+2018-01-18 15:54:34 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=27000> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=7080)
+2018-01-18 15:54:36 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=23400> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=5400)
+2018-01-18 15:54:36 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=24300> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=2700)
+2018-01-18 15:54:37 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=25200> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=11700)
+2018-01-18 15:54:39 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=21600> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=1560)
+2018-01-18 15:54:41 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=27900> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=7200)
+2018-01-18 15:54:41 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=31500> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=12600)
+2018-01-18 15:54:42 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=32400> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=10800)
+2018-01-18 15:54:43 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=34200> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=19620)
+2018-01-18 15:54:44 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=18900> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=1530)
+2018-01-18 15:54:46 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=36000> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=19800)
+2018-01-18 15:54:47 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=33300> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=14370)
+2018-01-18 15:54:48 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=36900> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=27000)
+2018-01-18 15:54:50 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=26100> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=9000)
+2018-01-18 15:54:51 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=39600> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=25200)
+2018-01-18 15:54:52 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=40500> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=21600)
+2018-01-18 15:54:53 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=30600> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=17910)
+2018-01-18 15:54:54 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=42300> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=31500)
+2018-01-18 15:54:55 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=35100> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=22500)
+2018-01-18 15:54:56 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=43200> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=32400)
+2018-01-18 15:54:58 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=45000> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=18900)
+2018-01-18 15:54:59 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=38700> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=24300)
+2018-01-18 15:55:01 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=41400> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=27900)
+2018-01-18 15:55:02 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=44100> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=34200)
+2018-01-18 15:55:04 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=28800> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=13500)
+2018-01-18 15:55:05 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=46800> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=33300)
+2018-01-18 15:55:06 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=47700> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=36900)
+2018-01-18 15:55:08 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=51300> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=30600)
+2018-01-18 15:55:09 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=48600> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=26100)
+2018-01-18 15:55:11 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=45900> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=36000)
+2018-01-18 15:55:13 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=53100> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=35100)

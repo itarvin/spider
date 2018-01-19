@@ -1,0 +1,47 @@
+2017-12-25 20:40:34 [scrapy] INFO: Scrapy 1.0.3 started (bot: TencentSpider)
+2017-12-25 20:40:34 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-12-25 20:40:34 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'TencentSpider.spiders', 'SPIDER_MODULES': ['TencentSpider.spiders'], 'LOG_FILE': 'tencentlog.log', 'LOG_LEVEL': 'INFO', 'BOT_NAME': 'TencentSpider'}
+2017-12-25 20:40:34 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-12-25 20:40:35 [boto] ERROR: Caught exception reading instance data
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/boto/utils.py", line 210, in retry_url
+    r = opener.open(req, timeout=timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+2017-12-25 20:40:35 [boto] ERROR: Unable to read instance data, giving up
+2017-12-25 20:40:35 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-12-25 20:40:35 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-12-25 20:40:35 [scrapy] INFO: Enabled item pipelines: TencentPipeline
+2017-12-25 20:40:35 [scrapy] INFO: Spider opened
+2017-12-25 20:40:35 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-12-25 20:40:49 [scrapy] INFO: Closing spider (finished)
+2017-12-25 20:40:49 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 85304,
+ 'downloader/request_count': 271,
+ 'downloader/request_method_count/GET': 271,
+ 'downloader/response_bytes': 1058509,
+ 'downloader/response_count': 271,
+ 'downloader/response_status_count/200': 271,
+ 'dupefilter/filtered': 1894,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 12, 25, 12, 40, 49, 555720),
+ 'item_scraped_count': 2700,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 41,
+ 'response_received_count': 271,
+ 'scheduler/dequeued': 271,
+ 'scheduler/dequeued/memory': 271,
+ 'scheduler/enqueued': 271,
+ 'scheduler/enqueued/memory': 271,
+ 'start_time': datetime.datetime(2017, 12, 25, 12, 40, 35, 283930)}
+2017-12-25 20:40:49 [scrapy] INFO: Spider closed (finished)
